@@ -6,7 +6,7 @@ if [ "$num" == "" ] || [ $# -gt 1 ]; then
     exit 1
 fi
 
-path=outputs/docs_$num/article.pdf
+path=outputs/docs_$num/photos.pdf
 ls "$path" && \
 echo "Printing $path" && \
 ./print_photos.sh "$path"
